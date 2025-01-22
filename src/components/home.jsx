@@ -1,12 +1,8 @@
-import { Fragment } from "react";
-
-const Home = () => {
+const Home = () =>{
     return(
-        <Fragment>
+        <div>
             <h1>Home</h1>
-            <p>Bu Home componenti </p>
-            <p>Lkn iwlamidi </p>
-        </Fragment>
-    )
-}
+        </div>
+    );
+};
 export default Home;
